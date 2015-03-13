@@ -280,7 +280,7 @@ module.exports = function (grunt) {
     buildcontrol: {
       dist: {
         options: {
-          remote: 'git@github.com:levent/londonmediadirect.git',
+          remote: 'git@github.com:londonmediadirect/londonmediadirect.github.io.git',
           branch: 'gh-pages',
           commit: true,
           push: true
