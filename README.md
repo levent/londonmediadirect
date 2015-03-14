@@ -4,6 +4,7 @@ This site was built using [Generator-jekyllrb](https://github.com/robwierzbowski
 
 ## Prerequisites
 
+* Ruby
 * Node.js
 
 ## Getting Started
