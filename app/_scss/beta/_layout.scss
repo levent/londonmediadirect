@@ -27,8 +27,8 @@ div.beta {
     text-decoration: none;
     color: $blackColor;
     margin-left: 24px;
-    &:visited, &:hover {
-      text-decoration: underline;
+    &:hover {
+      color: $whiteColor;
     }
   }
 }
