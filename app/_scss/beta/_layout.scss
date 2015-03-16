@@ -1,5 +1,5 @@
 body {
-  color: $whiteColor;
+  color: $blackColor;
   background-color: $backgroundColor;
 }
 
@@ -17,12 +17,12 @@ div.beta {
     font-weight: 700;
     margin: 0;
     padding: 0 0 0 10px;
-    border-left: 10px solid $accentColor;
+    border-left: 10px solid $blackColor;
     text-transform: uppercase;
   }
   a {
     text-decoration: none;
-    color: $whiteColor;
+    color: $blackColor;
     margin-left: 22px;
     &:visited, &:hover {
       text-decoration: underline;
