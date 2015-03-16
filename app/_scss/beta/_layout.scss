@@ -9,26 +9,38 @@ body {
 
 div.beta {
   margin: 0;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%,-50%);
   h1 {
     display:inline-block;
     line-height: 0.8em;
     font-size: 3.750em;
     font-weight: 700;
-    margin: 0 0 0 12px;
-    padding: 0 0 0 10px;
-    border-left: 11px solid $blackColor;
+    margin: 0;
+    padding: 0;
   }
   a {
     text-decoration: none;
     color: $blackColor;
-    margin-left: 24px;
+    margin-left: 4px;
     &:hover {
       color: $whiteColor;
+    }
+  }
+}
+
+@media only screen and (min-width: 35em) {
+  div.beta {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    h1 {
+      margin: 0 0 0 12px;
+      padding: 0 0 0 10px;
+      border-left: 11px solid $blackColor;
+    }
+    a {
+      margin-left: 24px;
     }
   }
 }
